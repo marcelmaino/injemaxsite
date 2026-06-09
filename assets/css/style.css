@@ -159,6 +159,10 @@ img { max-width: 100%; display: block; }
   font-size: 22px;
   letter-spacing: -0.03em;
 }
+/* Header logo swap: white logo at top, colored logo when scrolled */
+.brand .logo-scrolled { display: none; }
+.site-header.is-scrolled .brand .logo-top { display: none; }
+.site-header.is-scrolled .brand .logo-scrolled { display: block; }
 .brand-mark {
   width: 38px; height: 38px;
   border-radius: 11px;
