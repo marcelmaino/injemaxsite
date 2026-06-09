@@ -371,9 +371,10 @@ body.menu-open .mobile-menu { transform: translateY(0); }
 .segment:hover { background: var(--ink); color: #fff; transform: translateX(6px); }
 .segment .seg-ic { width: 44px; height: 44px; border-radius: 12px; background: var(--orange-soft); color: var(--orange); display: grid; place-items: center; flex: none; transition: background 0.4s; }
 .segment:hover .seg-ic { background: var(--orange); color: #fff; }
-.segment h4 { font-size: 19px; }
+.segment h4 { font-size: 19px; color: var(--ink); }
 .segment p { margin: 2px 0 0; font-size: 14px; color: var(--stone); }
 .segment:hover p { color: rgba(255,255,255,0.7); }
+.segment:hover h4 { color: #fff; }
 
 /* Stats band */
 .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; }
